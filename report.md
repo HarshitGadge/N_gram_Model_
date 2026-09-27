@@ -74,7 +74,7 @@ When `P(w_i | context) = 0`, we have `log(0) = -∞`, resulting in infinite perp
    - Possible trigrams: V³
    - Possible 4-grams: V⁴
    
-   With V ≈ 10,000, there are 10¹² possible 4-grams, but only ~887K training tokens.
+   With V ≈ 10,000, there are 10¹⁶ possible 4-grams, but only ~887K training tokens.
 
 3. **Coverage Gap**: Even with 887K training words, we can only observe a tiny fraction of all possible n-grams. The test set inevitably contains novel n-gram combinations never seen during training.
 
